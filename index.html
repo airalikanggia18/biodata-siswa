@@ -132,13 +132,14 @@ header p { margin: 0; color: var(--teks-redup); }
 
 <script>
 // LANGKAH 1: PENGATURAN
-const SUPABASE_URL = "https://ISI-PROJECT-ID-MU.supabase.co";
-const SUPABASE_ANON_KEY = "ISI-ANON-KEY-MU";
+const SUPABASE_URL = "https://oxuohrsgldmkdvdmloud.supabase.co";
+const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im94dW9ocnNnbGRta2R2ZG1sb3VkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTE5MzA4OTUsImV4cCI6MjEwNzUwNjg5NX0.C2C9aiNQF-SeHbEVnOZjT_3aClC8TAXkhDAwngX88uU";
 
 const TAMPILKAN = {
     jenisKelamin: true,
-    tanggalLahir: false,
-    alamat: false
+    tanggalLahir: true,
+    alamat: true,
+    foto_url: true
 };
 
 // LANGKAH 2: HUBUNGKAN KE SUPABASE
